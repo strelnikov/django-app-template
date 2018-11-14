@@ -1,0 +1,6 @@
+from django.views.generic import TemplateView
+from django.views.generic.detail import DetailView
+
+
+class {{ camel_case_app_name }}HomeView(TemplateView):
+    template_name = '{{ app_name }}/home.html'
